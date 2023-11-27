@@ -56,15 +56,3 @@ predict = st.button("Predict")
 result = model.predict(df)
 if predict :
     st.success(result[0])
-
-
-
-
-"""
-def load_model():
-    filename = "saved_model1"
-    model=pickle.load(open(filename, "rb"))
-    return model
-model = load_model()
-
-"""
